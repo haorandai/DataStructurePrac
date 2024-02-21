@@ -21,8 +21,9 @@ public class C02_BubbleSort {
     }
 
     public static void swap(int[] arr, int i, int j){
-        int tmp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = tmp;
+        // Only for different addr, otherwise all 0
+        arr[i] = arr[i] ^ arr[j];
+        arr[j] = arr[i] ^ arr[j];
+        arr[i] = arr[i] ^ arr[j];
     }
 }
