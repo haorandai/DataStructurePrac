@@ -5,7 +5,7 @@ package Sorting;
  * @email: haorand16@gmail.com
  * @date: 2/20/24 17:40
  * @description: some desc
- *
+ * Time Complexity: O(n^2)
  */
 public class C02_BubbleSort {
     public static void main(int[] arr) {
