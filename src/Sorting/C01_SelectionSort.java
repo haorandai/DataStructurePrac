@@ -5,8 +5,9 @@ package Sorting;
  * @email: haorand16@gmail.com
  * @date: 2/20/24 17:20
  * @description: Selection Sort Algorithm Implementation
+ * Time Complexity: O(n^2)
  */
-public class SelectionSort {
+public class C01_SelectionSort {
     public static void main(int[] arr) {
         if (arr == null || arr.length < 2) return;
         int minIndex = 0;
